@@ -563,12 +563,17 @@ hr {
   margin: 20% 0;
 }
 
+.box-dress .dress-label {
+  font-size: 22px;
+  letter-spacing: 2.4px;
+}
+
 .box-dress .dresscode {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 5%;
-  padding: 12% 0 14%;
+  padding: 4% 0 14%;
 }
 
 .box-dress .dresscode .color-item {

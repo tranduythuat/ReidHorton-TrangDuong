@@ -105,6 +105,11 @@
         max-width: calc((40 / 500) * 100vw);
     }
 
+    .box-dress .dress-label {
+        font-size: calc((22 / 500) * 100vw);
+        letter-spacing: calc((2.4 / 500) * 100vw);
+    }
+
     .dresscode-images .photo-box {
         max-width: calc((265 / 500) * 100vw);
     }
