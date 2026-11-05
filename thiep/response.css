@@ -159,3 +159,257 @@
         max-width: calc((180 / 500) * 100vw);
     }
 }
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1200px;
+        width: min(1200px, calc(100% - 48px));
+        margin: 0 auto;
+    }
+
+    .container-wrapper {
+        width: 100%;
+    }
+
+    .box-save {
+        height: 100vh;
+        min-height: 700px;
+        background-position: 81% 44%;
+    }
+
+    .box-save .logo {
+        max-width: 120px;
+    }
+
+    .inv {
+        font-size: clamp(90px, 8vw, 170px);
+    }
+
+    .box-content .wife,
+    .box-content .husband {
+        font-size: clamp(54px, 4vw, 92px);
+    }
+
+    .lb4,
+    .lb44,
+    .lb2,
+    .lb22,
+    .lb-time,
+    .lb-timee {
+        font-size: clamp(18px, 1.8vw, 30px);
+    }
+
+    .time-date {
+        font-size: clamp(42px, 3vw, 72px);
+    }
+
+    .lb5,
+    .lb-timeline,
+    .lb-dress,
+    .lb6 {
+        font-size: clamp(72px, 4vw, 88px);
+    }
+
+    .lb-timeline {
+        margin-top: 8%;
+    }
+
+    .lb55 {
+        font-size: clamp(38px, 3vw, 58px);
+    }
+
+    .church,
+    .churchh {
+        font-size: clamp(16px, 1.5vw, 26px);
+    }
+
+    .link-map {
+        width: 240px;
+        padding: 16px 24px;
+        font-size: clamp(14px, 1.1vw, 20px);
+    }
+
+    .img-center {
+        margin-bottom: unset;
+    }
+
+    .box-icon {
+        max-width: 540px;
+        margin: 8% auto 10%;
+    }
+
+    .box-timeline .events {
+        gap: 8%;
+        width: 80%;
+        padding: 8% 0 16%;
+    }
+
+    .box-timeline .events .event p {
+        font-size: clamp(16px, 1.2vw, 22px);
+        line-height: 1.6;
+    }
+
+    .box-timeline .events .event span {
+        font-size: clamp(16px, 1.1vw, 20px);
+    }
+
+    .box-timeline .events .event .icon {
+        width: 72px;
+    }
+
+    .box-timeline .events .event .icon img {
+        max-width: 72px;
+    }
+
+    .box-content,
+    .box-timeline,
+    .album,
+    .box-dress,
+    .box-form,
+    .box-end {
+        max-width: 100%;
+    }
+
+    .box-dress {
+        margin: 10% 0;
+    }
+
+    .box-dress .dress-label {
+        font-size: clamp(42px, 1.5vw, 28px);
+    }
+
+    .box-dress .dresscode .color-item {
+        max-width: clamp(80px, 1.2vw, 40px);
+    }
+
+    .dresscode-images {
+        aspect-ratio: 1 / .9;
+    }
+
+    .dresscode-images .photo-box {
+        max-width: calc((620 /1200) * 100%);
+        border: clamp(15px, 0.2vw, 1px) solid #fff;
+    }
+
+    .box-form {
+        padding: 0 4%;
+    }
+
+    form {
+        width: min(100%, 980px);
+        padding: 0 3%;
+    }
+
+    .feed-info {
+        max-width: 840px;
+        margin: 6% auto 4%;
+    }
+
+    .lb-form {
+        font-size: clamp(68px, 4vw, 96px);
+        margin-top: 8%;
+    }
+
+    .lb-formm {
+        font-size: clamp(48px, 3vw, 76px);
+    }
+
+    .in-fe,
+    .in-fee,
+    .note2,
+    .qs .note {
+        font-size: clamp(18px, 1.2vw, 24px);
+        line-height: 1.7;
+    }
+
+    .qs {
+        margin-top: 4%;
+    }
+
+    .qs .title {
+        font-size: clamp(20px, 1.5vw, 28px);
+        margin-bottom: 1.5%;
+    }
+
+    .container-check {
+        gap: 16px;
+        width: 100%;
+    }
+
+    .container-check.guest-number {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .check-box,
+    .check-box2 {
+        width: 100%;
+        max-width: 100%;
+        padding: 18px 20px;
+        font-size: clamp(16px, 1.2vw, 22px);
+        border-radius: 12px;
+    }
+
+    .til-check {
+        font-size: clamp(16px, 1.2vw, 22px);
+    }
+
+    .check-box2 {
+        max-width: 280px;
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-ten,
+    .inp-ten,
+    textarea,
+    .note2 {
+        width: min(100%, 900px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inp-ten,
+    textarea {
+        font-size: clamp(18px, 1.15vw, 22px);
+        padding: 18px 20px;
+        border-radius: 12px;
+    }
+
+    textarea {
+        min-height: 150px;
+    }
+
+    .form-group {
+        margin-top: 2%;
+    }
+
+    .wrapper {
+        margin-top: 20px;
+    }
+
+    .xacnhan {
+        max-width: 260px;
+        width: 100%;
+        aspect-ratio: 260 / 58;
+        font-size: clamp(18px, 1.3vw, 24px);
+        border-radius: 16px;
+        margin: 24px 10px 0;
+    }
+
+    .box-end .end-img {
+        aspect-ratio: 400 / 220;
+        background: url('images/couple/end.jpg') no-repeat 50% 76% / cover;
+    }
+
+    .box-end .subtext {
+        font-size: clamp(44px, 1.2vw, 32px);
+    }
+
+    .box-end .yen {
+        font-size: clamp(16px, 1.2vw, 12px);
+    }
+}
