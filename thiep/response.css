@@ -270,6 +270,10 @@
         max-width: 100%;
     }
 
+    .album .content .swiper {
+        aspect-ratio: 500 / 450;
+    }
+
     .box-dress {
         margin: 10% 0;
     }
