@@ -22,6 +22,7 @@
     .link-map,
     .our-sotry .story p,
     .in-album,
+    .in-album-vi,
     .album-anh,
     .in-fe,
     .in-fee,
@@ -105,6 +106,19 @@
         max-width: calc((40 / 500) * 100vw);
     }
 
+    .box-dress .subtext {
+        font-size: calc((13 / 500) * 100vw);
+    }
+
+    .box-dress .note {
+        font-size: calc((12 / 500) * 100vw);
+    }
+
+    .box-dress .dresscode-box .item img {
+        max-width: calc((350 / 500) * 100vw);
+        ;
+    }
+
     .box-dress .dress-label {
         font-size: calc((22 / 500) * 100vw);
         letter-spacing: calc((2.4 / 500) * 100vw);
@@ -130,6 +144,8 @@
     .box-feed {
         width: calc((120 / 500) * 100vw);
     }
+
+
 
     .box-save .logo {
         max-width: calc((80 / 500) * 100vw);
@@ -158,6 +174,18 @@
         font-size: calc((15 / 500) * 100vw);
         max-width: calc((180 / 500) * 100vw);
     }
+
+    .box-end .thank-text {
+        font-size: calc((42 / 500) * 100vw);
+    }
+
+    .box-end .subtext {
+        font-size: calc((16 / 500) * 100vw);
+    }
+
+    .box-end .info {
+        font-size: calc((12 / 500) * 100vw);
+    }
 }
 
 @media (min-width: 768px) {
@@ -175,10 +203,11 @@
         height: 100vh;
         min-height: 700px;
         background-position: 81% 44%;
+        /* aspect-ratio: 500 / 800; */
     }
 
     .box-save .logo {
-        max-width: 120px;
+        max-width: clamp(90px, 12vw, 170px);
     }
 
     .inv {
@@ -278,12 +307,25 @@
         margin: 10% 0;
     }
 
+    .box-dress .dresscode-box {
+        flex-direction: row;
+        gap: 10%;
+    }
+
+    .box-dress .dresscode {
+        gap: 8%;
+    }
+
+    .box-dress .dresscode-box .item img {
+        max-width: clamp(350px, 40vw, 700px);
+    }
+
     .box-dress .dress-label {
-        font-size: clamp(42px, 1.5vw, 28px);
+        font-size: clamp(22px, 2.5vw, 58px);
     }
 
     .box-dress .dresscode .color-item {
-        max-width: clamp(80px, 1.2vw, 40px);
+        max-width: clamp(40px, 3.8vw, 80px);
     }
 
     .dresscode-images {
@@ -291,8 +333,16 @@
     }
 
     .dresscode-images .photo-box {
-        max-width: calc((620 /1200) * 100%);
+        max-width: calc((628 /1200) * 100%);
         border: clamp(15px, 0.2vw, 1px) solid #fff;
+    }
+
+    .our-sotry .story .img-story {
+        max-width: clamp(300px, 38.8vw, 600px);
+    }
+
+    .our-sotry .story .icon img {
+        max-width: clamp(40px, 3.8vw, 80px);
     }
 
     .box-form {
@@ -314,13 +364,16 @@
         margin-top: 8%;
     }
 
-    .lb-formm {
+    .lb-formm .lb-dresss {
         font-size: clamp(48px, 3vw, 76px);
     }
 
     .in-fe,
     .in-fee,
     .note2,
+    .in-album,
+    .in-album-vi,
+    .our-sotry .story p,
     .qs .note {
         font-size: clamp(18px, 1.2vw, 24px);
         line-height: 1.7;
@@ -409,8 +462,16 @@
         background: url('images/couple/end.jpg') no-repeat 50% 76% / cover;
     }
 
+    .box-end .thank-text {
+        font-size: clamp(44px, 6.8vw, 62px);
+    }
+
     .box-end .subtext {
-        font-size: clamp(44px, 1.2vw, 32px);
+        font-size: clamp(16px, 1.5vw, 28px);
+    }
+
+    .box-end .info {
+        font-size: clamp(12px, 1.1vw, 26px);
     }
 
     .box-end .yen {
