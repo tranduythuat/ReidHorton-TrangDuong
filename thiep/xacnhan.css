@@ -114,7 +114,7 @@ html {
 
 body {
   overflow-x: hidden;
-  padding-top: 52px;
+  /* padding-top: 52px; */
 }
 
 @media (max-width: 500px) {
@@ -177,7 +177,7 @@ body {
   text-decoration: none;
   color: #333;
   font-family: var(--font-gotham-book);
-  font-size: 10.5px;
+  font-size: 12px;
   /* letter-spacing: 0.1em; */
   text-transform: uppercase;
   padding: 2%;
@@ -607,7 +607,37 @@ hr {
 
 .album .content .swiper .swiper-button-next,
 .album .content .swiper .swiper-button-prev {
-  color: white;
+  color: #111;
+  width: 48px;
+  height: unset;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album .content .swiper .swiper-button-next:after,
+.album .content .swiper .swiper-button-prev:after,
+.album .content .swiper .swiper-rtl .swiper-button-prev:after,
+.album .content .swiper .swiper-rtl .swiper-button-next:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #111;
+  position: relative;
+  left: 2px;
+}
+
+.album .content .swiper .swiper-button-prev:after {
+  border-left: none;
+  border-right: 10px solid #111;
+  left: -2px;
 }
 
 .album .content .swiper .swiper-pagination-bullet-active {

@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     .menu-link {
-        font-size: calc((10.5 / 500) * 100vw);
+        font-size: calc((12 / 500) * 100vw);
     }
 
     .lb44,
