@@ -185,8 +185,8 @@ body {
 
 .box-content .wife,
 .box-content .husband {
-  font-family: var(--font-aston);
-  /* font-family: var(--font-GreatVibes); */
+  /* font-family: var(--font-aston); */
+  font-family: var(--font-pinyonScript);
   font-weight: 300;
   font-size: 32px;
 }
@@ -500,6 +500,7 @@ hr {
 /* SLIDER */
 .album {
   width: 100%;
+  margin: 10% 0;
 }
 
 .album .content {
@@ -654,7 +655,7 @@ hr {
   aspect-ratio: 2 / 3;
   /* background-color: var(--text-color); */
   overflow: hidden;
-  border: 5px solid white;
+  /* border: 5px solid white; */
 }
 
 .dresscode-images .photo-box.photo1 {
@@ -675,12 +676,12 @@ hr {
 }
 
 .lb-dress {
-  font-size: 40px;
+  font-size: 45px;
   /* margin-bottom: 50px; */
 }
 
 .lb-dresss {
-  font-size: 48px;
+  font-size: 40px;
   margin-bottom: 2%;
 }
 
@@ -817,7 +818,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 20px; */
 }
 
 form {
@@ -1664,6 +1664,14 @@ textarea {
     transform: rotate(360deg);
   }
 }
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-weight: 600;
+}
+
+.album .content .swiper .swiper-button-next,
+.album .content .swiper .swiper-button-prev {}
 
 /* ================================ */
 /* 

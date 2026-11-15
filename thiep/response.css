@@ -76,10 +76,16 @@
         font-size: calc((35 / 500) * 100vw);
     }
 
+    .lb-dress {
+        font-size: calc((45 / 500) * 100vw);
+    }
+
+    .lb-dresss {
+        font-size: calc((40 / 500) * 100vw);
+    }
+
     .lb5,
     .lb-timelinee,
-    .lb-dresss,
-    .lb-dress,
     .lb-story,
     .lb-form {
         font-size: calc((40 / 500) * 100vw);
@@ -236,7 +242,7 @@
     .lb-timeline,
     .lb-dress,
     .lb6 {
-        font-size: clamp(72px, 4vw, 88px);
+        font-size: clamp(62px, 4vw, 88px);
     }
 
     .lb-timeline {
@@ -307,6 +313,14 @@
         margin: 10% 0;
     }
 
+    .box-dress .subtext {
+        font-size: clamp(16px, 1.7vw, 28px);
+    }
+
+    .box-dress .note {
+        font-size: clamp(14px, 1.4vw, 26px);
+    }
+
     .box-dress .dresscode-box {
         flex-direction: row;
         gap: 10%;
@@ -333,8 +347,8 @@
     }
 
     .dresscode-images .photo-box {
-        max-width: calc((628 /1200) * 100%);
-        border: clamp(15px, 0.2vw, 1px) solid #fff;
+        max-width: calc((599 /1200) * 100%);
+        /* border: clamp(15px, 0.2vw, 1px) solid #fff; */
     }
 
     .our-sotry .story .img-story {
@@ -364,7 +378,8 @@
         margin-top: 8%;
     }
 
-    .lb-formm .lb-dresss {
+    .lb-timelinee,
+    .lb-dresss {
         font-size: clamp(48px, 3vw, 76px);
     }
 
@@ -476,5 +491,10 @@
 
     .box-end .yen {
         font-size: clamp(16px, 1.2vw, 12px);
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: clamp(44px, 5.1vw, 80px) !important;
     }
 }
