@@ -28,16 +28,26 @@
 </head>
 
 <body>
+    <nav class="top-menu" aria-label="Main navigation">
+        <div class="menu-inner">
+            <a href="#home" class="menu-link active">Home</a>
+            <a href="#details" class="menu-link">Details</a>
+            <a href="#timeline" class="menu-link">Timeline</a>
+            <a href="#dress-code" class="menu-link">Dress Code</a>
+            <a href="#photos" class="menu-link">Photos</a>
+            <a href="#contact" class="menu-link">Contact</a>
+        </div>
+    </nav>
     <div id="loading-container" class="loading-container">
         <div class="spinner"></div>
     </div>
-    <div class="container">
+    <div class="container" id="home">
         <div class="container-wrapper">
             <div class="box-save">
                 <img src="thiep/images/logo.png" class="logo" alt="">
                 <label for="" class="inv">invitation</label>
             </div>
-            <div class="box-content">
+            <div class="box-content" id="details">
                 <lb class="dot"><i class="fa-solid fa-diamond"></i></lb>
                 <label for="" class="fade-down lb4">TRÂN TRỌNG KÍNH MỜI QUÝ KHÁCH</label>
                 <label for="" class="fade-down lb44"><i>WE CORDIALLY INVITE YOU</i></label>
@@ -77,7 +87,7 @@
                     <img src="thiep/images/couple/couple_02.jpg" alt="" class="couple_02" />
                 </div>
             </div>
-            <div class="box-timeline">
+            <div class="box-timeline" id="timeline">
                 <lb class="lb-timeline">Lịch Trình</lb>
                 <lb class="lb-timelinee"><i>Timeline</i></lb>
                 <lb class="dot"><i class="fa-solid fa-diamond"></i></lb>
@@ -118,7 +128,7 @@
                 </div>
             </div>
 
-            <div class="box-dress">
+            <div class="box-dress" id="dress-code">
                 <label for="" class="lb-dress">Trang Phục</label>
                 <label for="" class="lb-dresss"><i>Dresscode</i></label>
 
@@ -254,19 +264,7 @@
                     </div>
                 </div>
             </div> -->
-            <div class="share-album">
-                <div class="in-album-vi">
-                    Nhấn vào đây để tải lên những bức ảnh đẹp nhất vào album ảnh cưới của chúng mình!
-                    Chúng mình rất mong được nhìn lại ngày vui ấy qua góc nhìn của bạn.
-                </div>
-                <label for="" class="in-album"><i>Click here to upload your best pics to our digital photo album!<br>
-                        We can't wait to see our day through your eyes.</i></label>
-                <a href="https://drive.google.com/drive/folders/1gkTlcifWK931l3QtTsWJdSY8B_emR0NZ?usp=drive_link"
-                    class="album-anh">
-                    <!-- CÙNG CHIA SẺ NHỮNG KHOẢNH KHẮC VỚI CHÚNG MÌNH NHÉ! <br> -->
-                    SHARE YOUR PHOTOS WITH US!
-                </a>
-            </div>
+            
             <!-- <div class="box-title">
                 <p class="fade-down til1">
                     WE SINCERELY HOPE TO HAVE YOU THERE ON THIS IMPORTANT DAY <br />
@@ -285,7 +283,7 @@
                             Sự hiện diện của quý khách sẽ góp phần làm cho ngày vui <br>
                             của <strong>Trang và Reid</strong>
                             thêm trọn vẹn và ý nghĩa. Kính mong quý khách <br>
-                            vui lòng xác nhận tham dự <strong>trước ngày 18/12/2026.</strong>
+                            vui lòng xác nhận tham dự <strong>trước ngày 25/12/2026.</strong>
 
                         </label>
                         <label for="" class="in-fee">
@@ -293,7 +291,7 @@
                                 We are so excited to celebrate our special day with you. <br> Kindly confirm your
                                 attendance
                                 at our wedding celebration <strong>by
-                                    December 18, 2026</strong>!
+                                    December 25, 2026</strong>!
                             </i>
                         </label>
                         <!-- <lb class="dot3"><i class="fa-solid fa-diamond"></i></lb>
@@ -394,7 +392,7 @@
                             <label class="check-box2" for="gn_2">
                                 <h3 class="til-check">
                                     02 người <br>
-                                    <i>2 Guest</i>
+                                    <i>2 Guests</i>
                                 </h3>
                                 <!-- <h3 class="til-check"><i>/Phải về thôi/</i></h3> -->
                             </label>
@@ -402,7 +400,7 @@
                             <label class="check-box2" for="gn_3">
                                 <h3 class="til-check">
                                     03 người <br>
-                                    <i>3 Guest</i>
+                                    <i>3 Guests</i>
                                 </h3>
                                 <!-- <h3 class="til-check"><i>/Phải về thôi/</i></h3> -->
                             </label>
@@ -440,7 +438,7 @@
                 </div> -->
             </div>
 
-            <section class="album">
+            <section class="album" id="photos">
                 <div class="content fade-in">
                     <!-- <h2 class="text-title title fade-in">Album photo</h2> -->
                     <div class="swiper main-swiper">
@@ -481,6 +479,24 @@
                                 <img src="thiep/images/album/11.JPG" alt="" />
                             </div>
 
+                            <div class="swiper-slide">
+                                <img src="thiep/images/album/12.jpg" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="thiep/images/album/13.jpeg" alt="" />
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="thiep/images/album/14.jpg" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="thiep/images/album/15.jpg" alt=""  style="object-position: 50% 60%;" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="thiep/images/album/16.jpg" alt="" style="object-position: 50% 5%;" alt="" />
+                            </div>
+
+
                         </div>
                         <div class="swiper-pagination"></div>
 
@@ -490,7 +506,21 @@
                 </div>
             </section>
 
-            <div class="box-end">
+            <div class="share-album">
+                <div class="in-album-vi">
+                    Nhấn vào đây để tải lên những bức ảnh đẹp nhất vào album ảnh cưới của chúng mình!
+                    Chúng mình rất mong được nhìn lại ngày vui ấy qua góc nhìn của bạn.
+                </div>
+                <label for="" class="in-album"><i>Click here to upload your best pics to our digital photo album!<br>
+                        We can't wait to see our day through your eyes.</i></label>
+                <a href="https://drive.google.com/drive/folders/1gkTlcifWK931l3QtTsWJdSY8B_emR0NZ?usp=drive_link"
+                    class="album-anh">
+                    <!-- CÙNG CHIA SẺ NHỮNG KHOẢNH KHẮC VỚI CHÚNG MÌNH NHÉ! <br> -->
+                    SHARE YOUR PHOTOS WITH US!
+                </a>
+            </div>
+
+            <div class="box-end" id="contact">
                 <div class="end-img"></div>
                 <div class="thank-text">Thank you!</div>
                 <div class="subtext">We can't wait to celebrate with you. <br>
@@ -591,6 +621,55 @@
     </div>
     <script>
         AOS.init();
+
+        const menuLinks = [...document.querySelectorAll('.menu-link')];
+        const sectionIds = ['home', 'details', 'timeline', 'dress-code', 'photos', 'contact'];
+
+        const setActiveMenu = (id) => {
+            menuLinks.forEach((link) => {
+                const isActive = link.getAttribute('href') === `#${id}`;
+                link.classList.toggle('active', isActive);
+            });
+        };
+
+        const updateActiveMenu = () => {
+            if (window.scrollY < 120) {
+                setActiveMenu('home');
+                return;
+            }
+
+            const sections = sectionIds
+                .map((id) => document.getElementById(id))
+                .filter(Boolean);
+
+            if (!sections.length) return;
+
+            const headerOffset = 80;
+            let activeId = sections[0].id;
+            let smallestDistance = Number.POSITIVE_INFINITY;
+
+            sections.forEach((section) => {
+                const rect = section.getBoundingClientRect();
+                const distance = Math.abs(rect.top - headerOffset);
+
+                if (rect.top <= headerOffset && rect.bottom >= headerOffset) {
+                    activeId = section.id;
+                    return;
+                }
+
+                if (distance < smallestDistance) {
+                    smallestDistance = distance;
+                    activeId = section.id;
+                }
+            });
+
+            setActiveMenu(activeId);
+        };
+
+        window.addEventListener('scroll', updateActiveMenu, { passive: true });
+        window.addEventListener('load', updateActiveMenu);
+        window.addEventListener('resize', updateActiveMenu);
+        updateActiveMenu();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>

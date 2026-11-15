@@ -1,4 +1,7 @@
 @media (max-width: 500px) {
+    .menu-link {
+        font-size: calc((10.5 / 500) * 100vw);
+    }
 
     .lb44,
     .lb22 {
@@ -203,6 +206,10 @@
 
     .container-wrapper {
         width: 100%;
+    }
+
+    .menu-link {
+        font-size: clamp(14px, 1.8vw, 22px);
     }
 
     .box-save {
@@ -473,8 +480,8 @@
     }
 
     .box-end .end-img {
-        aspect-ratio: 400 / 220;
-        background: url('images/couple/end.jpg') no-repeat 50% 76% / cover;
+        aspect-ratio: 400 / 420;
+        background: url('images/couple/6.JPG') no-repeat 50% 76% / cover;
     }
 
     .box-end .thank-text {
@@ -486,7 +493,7 @@
     }
 
     .box-end .info {
-        font-size: clamp(12px, 1.1vw, 26px);
+        font-size: clamp(12px, 1.8vw, 26px);
     }
 
     .box-end .yen {
