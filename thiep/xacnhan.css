@@ -114,6 +114,7 @@ html {
 
 body {
   overflow-x: hidden;
+  padding-top: 52px;
 }
 
 @media (max-width: 500px) {
@@ -122,22 +123,35 @@ body {
     overflow-x: hidden;
   }
 
+  body {
+    /* padding-top: 48px; */
+  }
+
   .container,
   .container-wrapper,
   .top-menu {
-
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .menu-inner {
- 
+    /* gap: 3px;
+    padding: 8px 8px; */
+    overflow-x: hidden;
   }
 
-  
+  .menu-link {
+    /* font-size: 8.5px;
+    padding: 7px 6px;
+    letter-spacing: 0.08em; */
+  }
 }
 
 .top-menu {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   width: 100%;
   background: rgba(255, 255, 255, 0.82);
