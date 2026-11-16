@@ -196,6 +196,12 @@
     }
 }
 
+@media screen and (min-width: 500) and (max-width: 768px) {
+    .box-save .logo {
+        margin-top: 10%;
+    }
+}
+
 @media (min-width: 768px) {
     body {
         padding-top: 3%;
