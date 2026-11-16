@@ -3,6 +3,10 @@
         font-size: calc((12 / 500) * 100vw);
     }
 
+    .box-save .logo {
+        margin-top: 6%;
+    }
+
     .lb44,
     .lb22 {
         font-size: calc((15 / 500) * 100vw);
@@ -198,6 +202,10 @@
 }
 
 @media (min-width: 768px) {
+    body {
+        padding-top: 3%;
+    }
+
     .container {
         max-width: 1200px;
         width: min(1200px, calc(100% - 48px));
@@ -209,7 +217,7 @@
     }
 
     .menu-link {
-        font-size: clamp(14px, 1.8vw, 22px);
+        font-size: clamp(14px, 1vw, 22px);
     }
 
     .box-save {

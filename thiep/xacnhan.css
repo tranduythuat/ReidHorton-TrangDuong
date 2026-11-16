@@ -114,10 +114,11 @@ html {
 
 body {
   overflow-x: hidden;
-  /* padding-top: 52px; */
+  padding-top: 3%;
 }
 
 @media (max-width: 500px) {
+
   html,
   body {
     overflow-x: hidden;
@@ -180,7 +181,7 @@ body {
   font-size: 12px;
   /* letter-spacing: 0.1em; */
   text-transform: uppercase;
-  padding: 2%;
+  padding: 1% 2%;
   border-radius: 999px;
   transition: all 0.25s ease;
 }
