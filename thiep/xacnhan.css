@@ -125,7 +125,7 @@ body {
   }
 
   body {
-    /* padding-top: 48px; */
+    padding-top: 2%;
   }
 
   .container,
@@ -136,8 +136,8 @@ body {
   }
 
   .menu-inner {
-    /* gap: 3px;
-    padding: 8px 8px; */
+    /* gap: 3px; */
+    padding: 0 2%;
     overflow-x: hidden;
   }
 

@@ -5,6 +5,7 @@
 
     .box-save .logo {
         margin-top: 6%;
+        max-width: calc((80 / 500) * 100vw);
     }
 
     .lb44,
@@ -158,12 +159,6 @@
         width: calc((120 / 500) * 100vw);
     }
 
-
-
-    .box-save .logo {
-        max-width: calc((80 / 500) * 100vw);
-    }
-
     .check-box,
     .check-box2 {
         /* max-width: calc((140 / 500) * 100vw); */
@@ -212,6 +207,10 @@
         margin: 0 auto;
     }
 
+    .box-save .logo {
+        max-width: clamp(80px, 10vw, 155px);
+    }
+
     .container-wrapper {
         width: 100%;
     }
@@ -225,10 +224,6 @@
         min-height: 700px;
         background-position: 81% 44%;
         /* aspect-ratio: 500 / 800; */
-    }
-
-    .box-save .logo {
-        max-width: clamp(90px, 12vw, 170px);
     }
 
     .inv {
