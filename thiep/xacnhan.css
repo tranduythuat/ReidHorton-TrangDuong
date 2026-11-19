@@ -181,7 +181,7 @@ body {
   font-size: 12px;
   /* letter-spacing: 0.1em; */
   text-transform: uppercase;
-  padding: 1% 2%;
+  padding: 1% .5%;
   border-radius: 999px;
   transition: all 0.25s ease;
 }
@@ -269,7 +269,7 @@ body {
   /* font-family: var(--font-aston); */
   font-family: var(--font-pinyonScript);
   font-weight: 300;
-  font-size: 32px;
+  font-size: 52px;
 }
 
 .dot {
@@ -474,7 +474,7 @@ hr {
   display: flex;
   justify-content: center;
   padding: 10% 0 20%;
-  gap: 5%;
+  gap: 2%;
 }
 
 .box-timeline .events .event {
@@ -1231,6 +1231,7 @@ textarea {
   /* background-color: var(--empty-box); */
   font-weight: 300;
   margin-top: 10%;
+  position: relative;
 }
 
 .box-end img {
@@ -1241,7 +1242,25 @@ textarea {
 .box-end .end-img {
   width: 100%;
   aspect-ratio: 500 / 800;
-  background: url('images/couple/6.JPG') no-repeat center / cover;
+  /* background: url('images/couple/6.JPG') no-repeat center / cover; */
+  /* filter: blur(5px); */
+  position: relative;
+  overflow: hidden;
+}
+
+.box-end .end-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to top, #ffffff9b, #ffffff00, #ffffff00, #ffffff),
+    url('images/couple/6.JPG');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  transform: scale(1.1);
+  /* tránh viền trắng khi blur */
+  z-index: 0;
 }
 
 .box-end .thank-text {
@@ -1253,12 +1272,15 @@ textarea {
 .box-end .subtext {
   font-family: var(--font-gotham-light);
   font-size: 16px;
-  margin: 0 0 5%;
+  position: absolute;
+  bottom: 30%;
 }
 
 .box-end .info {
   font-family: var(--font-gotham-light);
-  line-height: 1.8;
+  line-height: 1.4;
+  position: absolute;
+  bottom: 20%;
 }
 
 .box-end .yen {

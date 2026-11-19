@@ -72,7 +72,7 @@
 
     .box-content .wife,
     .box-content .husband {
-        font-size: calc((32 / 500) * 100vw);
+        font-size: calc((52 / 500) * 100vw);
     }
 
     .lb55,
@@ -194,6 +194,11 @@
     .box-end .info {
         font-size: calc((12 / 500) * 100vw);
     }
+
+    .album .content .swiper .swiper-button-next,
+    .album .content .swiper .swiper-button-prev {
+        width: calc((48 / 500) * 100vw);
+    }
 }
 
 @media screen and (min-width: 500) and (max-width: 768px) {
@@ -238,7 +243,7 @@
 
     .box-content .wife,
     .box-content .husband {
-        font-size: clamp(54px, 4vw, 92px);
+        font-size: clamp(52px, 7vw, 92px);
     }
 
     .lb4,
@@ -290,7 +295,7 @@
     }
 
     .box-timeline .events {
-        gap: 8%;
+        gap: 2%;
         width: 80%;
         padding: 8% 0 16%;
     }
@@ -498,7 +503,7 @@
     }
 
     .box-end .subtext {
-        font-size: clamp(16px, 1.5vw, 28px);
+        font-size: clamp(16px, 1.8vw, 28px);
     }
 
     .box-end .info {
