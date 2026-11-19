@@ -316,7 +316,7 @@
                         </div>
                     </div>
                     <div class="container-check">
-                        <input class="box-feed" type="radio" value="YES" id="yes" name="CONFIRM" checked />
+                        <input class="box-feed" type="radio" value="YES" id="yes" name="CONFIRM" checked required />
                         <label class="check-box" for="yes">
                             <h3 class="til-check">
                                 🥰 Có, tôi sẽ tham dự! <br>
@@ -846,7 +846,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        const scripConfirmtURL = '?sheet=confirm';
+        const scripConfirmtURL = 'https://script.google.com/macros/s/AKfycbwf5gDBuuwsQmrtGZQycu3Ew2CaKtMBbYIwUl6dGk76zp6fbbTyFXnDqR1S5TFirf8J/exec?sheet=confirm';
         const form = document.forms["hung-chi"];
 
         form.addEventListener('submit', e => {
@@ -859,9 +859,10 @@
 
             const confirm = data.CONFIRM;
             const name = data.NAME;
-            const vegetarian = data.VEGETARIAN;
-            const guest_number = data.GUEST;
-            const wish = data.WISH;
+            // const vegetarian = data.VEGETARIAN;
+            const guest_number = data.guest_number || "";
+            const other = data.OTHER || "";
+            const note = data.NOTE || "";
 
             // Gửi dữ liệu form đi
             fetch(scripConfirmtURL, {
@@ -870,8 +871,8 @@
                     name,
                     confirm,
                     guest_number,
-                    vegetarian,
-                    wish
+                    other,
+                    note
                 })
             })
                 .then(response => {
