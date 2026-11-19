@@ -221,7 +221,7 @@ body {
   aspect-ratio: 500 / 825;
   background-image:
     linear-gradient(to top, rgba(0, 0, 0, 0.271), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('images/couple/hero.JPG');
+    url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ReidHorton-TrangDuong/couple/hero.JPG');
   background-size: 110%;
   background-repeat: no-repeat;
   background-position: 81% 50%;
@@ -772,13 +772,13 @@ hr {
 .dresscode-images .photo-box.photo1 {
   top: 0;
   left: 0;
-  background: url('images/couple/4.JPG') no-repeat center center / 140%;
+  background: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ReidHorton-TrangDuong/couple/4.JPG') no-repeat center center / 140%;
 }
 
 .dresscode-images .photo-box.photo2 {
   bottom: 0;
   right: 0;
-  background: url('images/couple/5.JPG') no-repeat 34% 50% / 250%;
+  background: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ReidHorton-TrangDuong/couple/5.JPG') no-repeat 34% 50% / 250%;
 }
 
 .dresscode-images .photo-box img {
@@ -1242,7 +1242,7 @@ textarea {
 .box-end .end-img {
   width: 100%;
   aspect-ratio: 500 / 800;
-  /* background: url('images/couple/6.JPG') no-repeat center / cover; */
+  /* background: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ReidHorton-TrangDuong/couple/6.JPG') no-repeat center / cover; */
   /* filter: blur(5px); */
   position: relative;
   overflow: hidden;
@@ -1254,7 +1254,7 @@ textarea {
   inset: 0;
   background-image:
     linear-gradient(to top, #ffffff9b, #ffffff00, #ffffff00, #ffffff),
-    url('images/couple/6.JPG');
+    url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ReidHorton-TrangDuong/couple/6.JPG');
   background-size: cover;
   background-position: center;
   filter: blur(4px);
