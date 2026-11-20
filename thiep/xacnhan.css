@@ -1253,12 +1253,12 @@ textarea {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(to top, #ffffff9b, #ffffff00, #ffffff00, #ffffff),
+    linear-gradient(to top, #ffffff8b, #ffffff7c),
     url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ReidHorton-TrangDuong/couple/6.JPG');
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
-  transform: scale(1.1);
+  /* filter: blur(4px);
+  transform: scale(1.1); */
   /* tránh viền trắng khi blur */
   z-index: 0;
 }
@@ -1266,27 +1266,31 @@ textarea {
 .box-end .thank-text {
   font-family: var(--font-mtd);
   font-size: 42px;
-  margin: 10% 0 5%;
+  /* margin: 10% 0 5%; */
+  position: absolute;
+  bottom: 30%;
 }
 
 .box-end .subtext {
   font-family: var(--font-gotham-light);
   font-size: 16px;
   position: absolute;
-  bottom: 30%;
+  bottom: 20%;
 }
 
 .box-end .info {
   font-family: var(--font-gotham-light);
   line-height: 1.4;
   position: absolute;
-  bottom: 20%;
+  bottom: 10%;
 }
 
 .box-end .yen {
   font-family: var(--font-gotham-light);
   font-size: 8px;
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  position: absolute;
+  bottom: 2%;
 }
 
 .lb-end1 {
